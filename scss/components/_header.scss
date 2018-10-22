@@ -1,0 +1,127 @@
+/* ======================================
+    Header Styles
+   ====================================== */
+
+.header {
+  background-color: $color-tertiary; //fallback if image doesn't load
+  background-image: url(../images/background/markus-spiske-771011-unsplash-1024x683.jpg);
+  // background-image: linear-gradient(
+  //   45deg,
+  //   $color-primary, $color-tertiary);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  color: $about-text-color;
+
+  @include flexbox($dir:column, $just:center);
+  align-items: center;
+
+  position: relative;
+  padding: 0.5em 0;
+
+  @include mq('sm'){
+    padding: 2em 0.5em;
+  }
+
+  @include mq('med'){
+    background-position: center center;
+    padding: 4em 1em;
+  }
+
+  @include mq('lg'){
+    background-attachment: fixed;
+  }
+
+}
+
+.about {
+  @include flexbox($dir:column, $just:center);
+  align-items: center;
+  text-align: center;
+  // padding: 1em;
+  width: 100%;
+  z-index: 1;
+
+  @include mq("sm") {
+    width: 90%;
+  }
+  @include mq("med") {
+    width: 75%;
+  }
+  & h4 {
+    font-size: 2em;
+    margin: 0;
+  }
+}
+
+.blurb {
+  text-align: center;
+  padding: 0 1em;
+  width: 90%;
+
+  @include mq("sm") {
+    width: 80%;
+  }
+  @include mq("med") {
+    width: 70%;
+  }
+
+  & p {
+    font-size: 1.4em;
+  }
+}
+
+.contact-links {
+  @include flexbox($dir:row, $just: space-evenly);
+  align-items: center;
+  width: 90%;
+
+  @include mq('sm') {
+    width: 60%;
+  }
+
+  @include mq('sm') {
+    width: 50%;
+  }
+
+  & .contact-icon {
+    fill: $about-text-color;
+    width: 56px;
+    height: 56px;
+
+    @include mq('sm') {
+      width: 42px;
+      height: 42px;
+    }
+
+    &:hover,
+    &:focus {
+      fill: $color-tertiary;
+    }
+
+  }
+
+}
+
+.credit {
+  display: none;
+  align-self: flex-end;
+  margin: 1em;
+  // z-index: 1;
+}
+
+.header-overlay {
+  content: "";
+  background-color: #000;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}

@@ -1,0 +1,171 @@
+// ======================================
+//  Mixins
+// ======================================
+
+// === Media Queries ===
+@mixin mq($break) {
+  // Variables for grabbing $breakpoints Sass map values
+  $value: map-get($breakpoints, $break);
+  $xs: map-get($breakpoints, "xs");
+  $sm: map-get($breakpoints, "sm");
+
+  // Check for errors
+  @if $value == null {
+    @error "'#{$break}' is not a valid breakpoint name.";
+    // @warn "'#{$break}' is not a valid breakpoint name.";
+  }
+
+  // Use "max-width" if value passed to $break is less than "sm" (i.e. smaller than tablet portrait)
+  @else if $value == $xs {
+    @error "You should no longer use the '#{$break}' breakpoint and should instead use a mobile-first approach. Default styles should be for smartphone screen size, and any media queries should be for 'sm' (600px) and up using min-width.";
+    // @media (max-width: $value) {
+    //   @content;
+    // }
+  }
+
+  // Use "min-width" if value passed to $break is anything larger than "xs" (i.e. smartphone width)
+  @else {
+    @media (min-width: $value) {
+      @content;
+    }
+  }
+
+} // End of mq mixin
+
+// === Aesthetics ===
+@mixin shadow {
+  // box-shadow: 2px 2px 10px 0px rgba(46,61,73,0.2),
+  //   -2px 0px 10px 0px rgba(46,61,73,0.2);
+    box-shadow: 10px 10px 10px 0px rgba(46,61,73,0.2),
+      -10px 0px 10px 0px rgba(46,61,73,0.2);
+}
+
+// === Transition ===
+@mixin transition (
+  // Variables
+  $prop:all,
+  $dur: 0.25s,
+  $tim: ease-in) {
+    // Properties
+  transition-property: $prop;
+  transition-duration: $dur;
+  transition-timing-function: $tim;
+}
+
+// === Flexbox ===
+@mixin flexbox(
+  // Variables
+  $disp: flex,
+  $dir: null,
+  $wrap: null,
+  $just: null,) {
+  // Properties
+  display: $disp;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
+}
+
+// == Layout ==
+@mixin sticky-top {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+@mixin center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@mixin center-vertical {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+// == Buttons ==
+@mixin button {
+  background-color: $btn-color-default;
+  color: $btn-text-color;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75em;
+  margin: 1em 0 0.5em 0;
+  width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  // text-transform: uppercase;
+  @include transition($dur: 0.2s);
+
+  &:hover,
+  &focus {
+    background-color: darken($btn-color-default, 8);
+    // background-color: lighten($btn-color-default, 5);
+    color: $btn-text-color;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  @include mq('sm') {
+    padding: 1em;
+  }
+
+}
+
+@mixin accordion-trigger {
+  background-color: $color-secondary;
+  color: $color-primary;
+  border: 3px solid $color-primary;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  @include flexbox($just: space-between);
+  width: 100%;
+
+  @include transition($dur: 0.2s);
+
+  &:hover,
+  &.active {
+    background-color: darken($btn-color-default, 8);
+    // background-color: lighten($btn-color-default, 5);
+    color: $btn-text-color;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  @include mq('sm') {
+    &.active {
+      position: sticky;
+      position: -moz-sticky;
+      position: -webkit-sticky;
+      top: -16px;
+    }
+  }
+
+  & i {
+    margin-left: 5px;
+    transition: transform .2s ease-out;
+  }
+}
+
+// == Alert Messages ==
+@mixin alert {
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2em;
+  line-height: 1.4;
+  padding: 0.5em;
+  margin: 2em auto;
+  width: calc(100% - 20px);
+
+  @include flexbox;
+  align-items: flex-start;
+
+  @include mq('sm') {
+    align-items: center;
+    width: calc(100% - 100px);
+  }
+}
