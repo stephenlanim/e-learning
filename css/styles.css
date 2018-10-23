@@ -400,7 +400,7 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
 
 /* Just the content window within the modal. */
 .modal-content-window {
-  background-color: #fff;
+  background-color: #FFFCFF;
   border-radius: 5px;
   margin: 75px auto 10px auto;
   padding: 1em;
@@ -989,7 +989,7 @@ h2 {
   align-items: stretch; }
 
 .project-card {
-  background-color: #fff;
+  background-color: #FFFCFF;
   border-radius: 5px;
   color: #7A1D3C;
   width: 100%;
@@ -1208,8 +1208,6 @@ footer {
   height: fit-content;
   height: -moz-fit-content;
   width: 100%; }
-  footer .credit {
-    margin-top: 0; }
   footer a {
     color: #7A1D3C; }
 
