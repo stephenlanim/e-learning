@@ -29,11 +29,18 @@ $breakpoints: (
 // $color-primary: #6d1a36;
 // $color-primary: #2274a5;
 // $color-primary: #13505b;
-$color-primary: #7A1D3C;
+// $color-primary: #7A1D3C;
 // $color-primary: #9b3b5a;
 // $color-primary: #08303A;
 // $color-primary: #239AB9;
 // $color-primary: #B91A50;
+// $color-primary: #fdfff2;
+// $color-primary: #004172;
+// $color-primary: #8D99AE;
+// $color-primary: #fff;
+// $color-primary: #000;
+// $color-primary: #f5fafd;
+$color-primary: #FFFCFF;
 
 
 // $color-secondary: #d7d9ce;
@@ -41,18 +48,35 @@ $color-primary: #7A1D3C;
 // $color-secondary: #2274a5;
 // $color-secondary: #13505b;
 // $color-secondary: #fff;
-$color-secondary: #fdfff2;
+// $color-secondary: #fdfff2;
+// $color-secondary: #239AB9;
+// $color-secondary: #88DAFF;
+// $color-secondary: #EEFFFF;
+// $color-secondary: #EDF2F4;
+// $color-secondary: #8D99AE;
+// $color-secondary: #EDF2F4;
+// $color-secondary: #000;
+// $color-secondary: #004172;
+// $color-secondary: #f5fafd;
+// $color-secondary: #2ebcfc;
+// $color-secondary: #15A3E3;
+$color-secondary: #7A1D3C;
 
 // $color-tertiary: #2274a5;
 // $color-tertiary: #6d1a36;
 $color-tertiary: #2274a5;
 // $color-tertiary: #13505b;
+// $color-tertiary: #2ebcfc;
+// $color-tertiary: #15A3E3;
+// $color-tertiary: #7A1D3C;
 
 // $color-accent: #d7d9ce;
 // $color-accent: #6d1a36;
 // $color-accent: #2274a5;
 // $color-accent: #13505b;
 $color-accent: #2393a7;
+// $color-accent: #ffad33;
+// $color-accent: #E6941A;
 
 $about-text-color: #fff;
 // $about-text-color: #555;
@@ -68,15 +92,16 @@ $portfolio-heading-color: $color-secondary;
 // $portfolio-heading-color: $color-tertiary;
 // $portfolio-heading-color: $color-accent;
 
-$project-text-color: $color-primary;
-// $project-text-color: $color-secondary;
+// $project-text-color: $color-primary;
+$project-text-color: $color-secondary;
 // $project-text-color: $color-tertiary;
 // $project-text-color: $color-accent;
 
 // $project-card-color: $color-primary;
-$project-card-color: $color-secondary;
+// $project-card-color: $color-secondary;
 // $project-card-color: $color-tertiary;
 // $project-card-color: $color-accent;
+$project-card-color: #fff;
 
 // $footer-text-color: $color-primary;
 $footer-text-color: $color-secondary;
@@ -100,13 +125,13 @@ $link-color-active: $color-accent;
 $background-color: $color-secondary;
 $border-color: darken($background-color, 20);
 
-$btn-color-default: $color-primary;
-// $btn-color-default: $color-secondary;
+// $btn-color-default: $color-primary;
+$btn-color-default: $color-secondary;
 // $btn-color-default: $$color-tertiary;
 // $btn-color-default: $color-accent;
 
-// $btn-text-color: $color-primary;
-$btn-text-color: $color-secondary;
+$btn-text-color: $color-primary;
+// $btn-text-color: $color-secondary;
 // $btn-text-color: $color-tertiary;
 // $btn-text-color: $color-accent;
 

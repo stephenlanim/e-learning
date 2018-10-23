@@ -6,10 +6,17 @@ footer {
   background-color: $color-primary;
   color: $footer-text-color;
   border-top: 5px solid $color-secondary;
-  @include flexbox($dir:row, $just:center);
+  @include flexbox($dir:column, $just:center);
   align-items: center;
   height: fit-content;
   height: -moz-fit-content;
   width: 100%;
 
+  .credit {
+    margin-top: 0;
+  }
+
+  a {
+    color: $footer-text-color;
+  }
 }
