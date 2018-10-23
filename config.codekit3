@@ -71,11 +71,18 @@
 		"oAP": "/docs/Anim_Strawn-OeL_Onboarding_Evaluation.pdf",
 		"oF": 0
 		},
-	"/docs/Eval Presentation.pptx": {
+	"/docs/Onboarding_Eval_Presentation.pptx": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/docs/Eval Presentation.pptx",
+		"oAP": "/docs/Onboarding_Eval_Presentation.pptx",
+		"oF": 0
+		},
+	"/docs/Stephen_Anim-Resume-e-Learning_Developer.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/docs/Stephen_Anim-Resume-e-Learning_Developer.pdf",
 		"oF": 0
 		},
 	"/images/background/e-Learning-icons-flat.jpg": {
