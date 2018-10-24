@@ -78,9 +78,10 @@ $color-accent: #2393a7;
 // $color-accent: #ffad33;
 // $color-accent: #E6941A;
 
-$about-text-color: #fff;
+// $about-text-color: #fff;
 // $about-text-color: #555;
 // $about-text-color: $color-secondary;
+$about-text-color: $color-primary;
 
 // $main-content-bg-color: $color-secondary;
 $main-content-bg-color: $color-primary;
@@ -115,6 +116,7 @@ $footer-text-color: $color-secondary;
 
 $light-text-color: #fff;
 // $light-text-color: #555;
+// $light-text-color: $color-primary;
 
 $success-color: #32aaf1;
 $error-color: #b92c5c;

@@ -840,7 +840,7 @@ footer {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  color: #fff;
+  color: #FFFCFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -902,7 +902,7 @@ footer {
     .contact-links {
       width: 50%; } }
   .contact-links .contact-icon {
-    fill: #fff;
+    fill: #FFFCFF;
     width: 56px;
     height: 56px; }
     @media (min-width: 550px) {
@@ -1161,7 +1161,7 @@ ul.project-info {
 /* Animation for coloring SVG icon */
 @keyframes fill-color {
   0% {
-    fill: #fff; }
+    fill: #FFFCFF; }
   100% {
     fill: #2274a5; } }
 

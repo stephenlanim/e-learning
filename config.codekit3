@@ -158,6 +158,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/icons/code-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons/code-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/icons/envelope-regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -5149,6 +5159,27 @@
 		"oAP": "/projects/Cascade_Web_Content_Manager_Training/vr/56413.mp4",
 		"oF": 0
 		},
+	"/projects/construction_game/1-Instructional_Game_Proposal.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/projects/construction_game/1-Instructional_Game_Proposal.docx",
+		"oF": 0
+		},
+	"/projects/construction_game/2-Game_Design_Document.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/projects/construction_game/2-Game_Design_Document.docx",
+		"oF": 0
+		},
+	"/projects/construction_game/3-Game_Storyboard.pptx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/projects/construction_game/3-Game_Storyboard.pptx",
+		"oF": 0
+		},
 	"/projects/docs/Anim_Strawn-OeL_Onboarding_Evaluation.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -5161,6 +5192,27 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/projects/docs/Cascade_Web_Content_Manager_Training_Report.docx",
+		"oF": 0
+		},
+	"/projects/docs/Cascade_Web_Content_Manager_Training_Report.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/projects/docs/Cascade_Web_Content_Manager_Training_Report.pdf",
+		"oF": 0
+		},
+	"/projects/docs/Minecraft_Team-Building_Game_Proposal.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/projects/docs/Minecraft_Team-Building_Game_Proposal.docx",
+		"oF": 0
+		},
+	"/projects/docs/Minecraft_Team-Building_Game_Proposal.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/projects/docs/Minecraft_Team-Building_Game_Proposal.pdf",
 		"oF": 0
 		},
 	"/projects/docs/Onboarding_Eval_Presentation.pptx": {
