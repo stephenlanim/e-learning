@@ -337,7 +337,7 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
 /* Regular modal trigger button */
 .modal-trigger {
   background-color: #2274a5;
-  color: #FFFCFF;
+  color: #fbfdff;
   border: none;
   border-radius: 5px;
   padding: 0.75em;
@@ -351,7 +351,7 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
   font-size: 1.2rem; }
   .modal-trigger:hover, .modal-triggerfocus {
     background-color: #1b5c83;
-    color: #FFFCFF;
+    color: #fbfdff;
     cursor: pointer;
     text-decoration: none; }
   @media (min-width: 550px) {
@@ -365,9 +365,9 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
   /* margin: 0 auto; */
   margin-bottom: 10px;
   /* overflow: hidden; */
-  border: solid 2px #FFFCFF;
+  border: solid 2px #fbfdff;
   border-radius: 5px;
-  color: #FFFCFF;
+  color: #fbfdff;
   display: block;
   padding: 0;
   overflow: hidden;
@@ -379,7 +379,7 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
 
 .vid-modal-trigger:hover,
 .vid-modal-trigger:focus {
-  box-shadow: #FFFCFF 0px 0px 8px;
+  box-shadow: #fbfdff 0px 0px 8px;
   text-decoration: none;
   transform: scale(1.05); }
 
@@ -400,7 +400,7 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
 
 /* Just the content window within the modal. */
 .modal-content-window {
-  background-color: #FFFCFF;
+  background-color: #fbfdff;
   border-radius: 5px;
   margin: 75px auto 10px auto;
   padding: 1em;
@@ -460,7 +460,7 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
 /* The close button within the modal content window. */
 .close-btn {
   background-color: #2274a5;
-  color: #FFFCFF;
+  color: #fbfdff;
   border: none;
   border-radius: 5px;
   padding: 0.75em;
@@ -481,7 +481,7 @@ Use this document in conjunction with js-modal.js for the scripts that open and 
   order: 1; }
   .close-btn:hover, .close-btnfocus {
     background-color: #1b5c83;
-    color: #FFFCFF;
+    color: #fbfdff;
     cursor: pointer;
     text-decoration: none; }
   @media (min-width: 550px) {
@@ -654,7 +654,7 @@ footer {
    ====================================== */
 .navbar {
   font-size: 1.2em;
-  background-color: #FFFCFF;
+  background-color: #fbfdff;
   color: #2274a5;
   border-bottom: 5px solid #2274a5;
   box-shadow: 5px 5px 10px 0px rgba(46, 61, 73, 0.4), -5px 0px 10px 0px rgba(46, 61, 73, 0.4);
@@ -806,7 +806,7 @@ footer {
     background-color: #2274a5;
     border-radius: 5px;
     padding: 1em;
-    color: #FFFCFF;
+    color: #fbfdff;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -840,7 +840,7 @@ footer {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  color: #FFFCFF;
+  color: #fbfdff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -902,7 +902,7 @@ footer {
     .contact-links {
       width: 50%; } }
   .contact-links .contact-icon {
-    fill: #FFFCFF;
+    fill: #fbfdff;
     width: 56px;
     height: 56px; }
     @media (min-width: 550px) {
@@ -939,7 +939,7 @@ h2 {
   font-size: 2.3em; }
 
 .main-content {
-  background-color: #FFFCFF;
+  background-color: #fbfdff;
   color: #fff;
   padding: 1em; }
 
@@ -989,7 +989,7 @@ h2 {
   align-items: stretch; }
 
 .project-card {
-  background-color: #FFFCFF;
+  background-color: #fbfdff;
   border-radius: 5px;
   color: #2274a5;
   width: 100%;
@@ -1037,7 +1037,7 @@ h2 {
 
 .modal-content-window .view-btn {
   background-color: #2274a5;
-  color: #FFFCFF;
+  color: #fbfdff;
   border: none;
   border-radius: 5px;
   padding: 0.75em;
@@ -1053,7 +1053,7 @@ h2 {
   margin: 0.2em 0; }
   .modal-content-window .view-btn:hover, .modal-content-window .view-btnfocus {
     background-color: #1b5c83;
-    color: #FFFCFF;
+    color: #fbfdff;
     cursor: pointer;
     text-decoration: none; }
   @media (min-width: 550px) {
@@ -1106,8 +1106,8 @@ ul.project-info {
 .tasks-trigger,
 .results-trigger {
   background-color: #2274a5;
-  color: #FFFCFF;
-  border: 3px solid #FFFCFF;
+  color: #fbfdff;
+  border: 3px solid #fbfdff;
   border-radius: 5px;
   font-size: 24px;
   padding: 0.5em;
@@ -1124,7 +1124,7 @@ ul.project-info {
   .results-trigger:hover,
   .results-trigger.active {
     background-color: #1b5c83;
-    color: #FFFCFF;
+    color: #fbfdff;
     cursor: pointer;
     text-decoration: none; }
   @media (min-width: 550px) {
@@ -1161,7 +1161,7 @@ ul.project-info {
 /* Animation for coloring SVG icon */
 @keyframes fill-color {
   0% {
-    fill: #FFFCFF; }
+    fill: #fbfdff; }
   100% {
     fill: #2274a5; } }
 
@@ -1198,7 +1198,7 @@ ul.project-info {
     Footer Styles
    ====================================== */
 footer {
-  background-color: #FFFCFF;
+  background-color: #fbfdff;
   color: #2274a5;
   border-top: 5px solid #2274a5;
   display: flex;
