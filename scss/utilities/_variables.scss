@@ -72,6 +72,8 @@ $color-tertiary: #2274a5;
 // $color-tertiary: #2ebcfc;
 // $color-tertiary: #15A3E3;
 // $color-tertiary: #7A1D3C;
+// $color-tertiary: #ffad33;
+// $color-tertiary: #7A1D3C;
 
 // $color-accent: #d7d9ce;
 // $color-accent: #6d1a36;
@@ -125,8 +127,15 @@ $success-color: #32aaf1;
 $error-color: #b92c5c;
 $warning-color: #2393a7;
 $nav-icon-color: #a6a6b9;
-$link-color: $color-tertiary;
-$link-color-active: $color-accent;
+// $link-color: $color-tertiary;
+// $link-color: #ffad33;
+// $link-color: #333745;
+// $link-color: #7A1D3C;
+// $link-color: darken($color-tertiary, 10);
+// $link-color: darken($color-accent, 10);
+$link-color: $color-accent;
+// $link-color-active: $color-accent;
+$link-color-active: darken($color-accent, 10);
 $background-color: $color-secondary;
 $border-color: darken($background-color, 20);
 

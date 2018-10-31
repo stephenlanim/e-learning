@@ -315,9 +315,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #2274a5; }
+  color: #2393a7;
+  font-weight: 800; }
   a:hover, a:active {
-    color: #2393a7; }
+    color: #1a6e7d;
+    font-weight: 800; }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -824,7 +826,7 @@ footer {
         .nav-list a:hover, .nav-list a:active, .nav-list a.active {
           background-color: inherit;
           border-radius: 0;
-          border-bottom: 3px solid #2393a7;
+          border-bottom: 3px solid #1a6e7d;
           color: #2274a5; } }
 
 /* ======================================
