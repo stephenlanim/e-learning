@@ -64,6 +64,31 @@
 		"oAP": "/cut_projects.html",
 		"oF": 0
 		},
+	"/Design_Notes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Design_Notes.html",
+		"oF": 0
+		},
+	"/Design_Notes.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/Design_Notes.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/docs/Stephen_Anim-Resume-e-Learning_Developer.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -383,6 +408,13 @@
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
+		},
+	"/new_projects.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/new_projects.html",
+		"oF": 0
 		},
 	"/project-card.html": {
 		"cB": 0,
